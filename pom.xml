@@ -45,7 +45,27 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
-	</dependencies>
+		
+		<!-- Spring boot Thymeleaf -->
+		<dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    	</dependency>
+    	
+    	
+    	
+ <!-- https://mvnrepository.com/artifact/com.oracle/ojdbc7 -->
+<dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc7</artifactId>
+    <version>12.1.0</version>
+    
+</dependency>
+
+		
+</dependencies>
+	
+	
 
 	<build>
 		<plugins>
